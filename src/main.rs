@@ -1,5 +1,8 @@
+mod parser;
+
 use std::{path::PathBuf, str::FromStr, vec};
 
+use parser::parse_season;
 use serde::{Deserialize, Serialize};
 use torrent_name_parser::Metadata;
 
@@ -27,6 +30,32 @@ struct Episode {
 }
 
 fn main() {
+    // build_config();
+
+    let season =
+        parse_season("Kaguya-sama Love is War S02 1080p Dual Audio BDRip 10 bits AAC x265-EMBER")
+            .unwrap_or(0);
+
+    println!("{}", season);
+}
+
+fn parse_file_tree(path: &PathBuf) -> Vec<PathBuf> {
+    let mut paths: Vec<PathBuf> = vec![];
+
+    let curr_paths = path.read_dir().unwrap().map(|m| m.unwrap().path());
+
+    for path in curr_paths {
+        if path.is_dir() {
+            paths.append(&mut parse_file_tree(&path));
+        } else {
+            paths.push(path);
+        }
+    }
+
+    paths
+}
+
+fn build_config() {
     let mut config = BaseConfig { media: vec![] };
 
     let path = PathBuf::from_str("./media").unwrap();
@@ -90,20 +119,4 @@ fn main() {
 
     let json = serde_json::to_string_pretty(&config).unwrap();
     println!("{}", json);
-}
-
-fn parse_file_tree(path: &PathBuf) -> Vec<PathBuf> {
-    let mut paths: Vec<PathBuf> = vec![];
-
-    let curr_paths = path.read_dir().unwrap().map(|m| m.unwrap().path());
-
-    for path in curr_paths {
-        if path.is_dir() {
-            paths.append(&mut parse_file_tree(&path));
-        } else {
-            paths.push(path);
-        }
-    }
-
-    paths
 }
