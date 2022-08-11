@@ -1,0 +1,9 @@
+[package]
+name = "oms-parser"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+torrent-name-parser = "0.11.0"
+serde = { version = "1.0.143", features = ["derive"] }
+serde_json = "1.0.83"
