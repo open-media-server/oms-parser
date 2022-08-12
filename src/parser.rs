@@ -1,4 +1,8 @@
-pub fn parse_season(name: &str) -> Option<i32> {
+pub fn parse_season_number(name: &str) -> Option<i32> {
+    if name.to_lowercase().contains("specials") {
+        return Some(0);
+    }
+
     let parts = name.split(" ").collect::<Vec<&str>>();
 
     // Match names with "season ##" in them

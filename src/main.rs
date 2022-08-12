@@ -1,10 +1,17 @@
-mod parser;
+use std::{
+    fs::{self, DirEntry},
+    io::Error,
+    path::PathBuf,
+    str::FromStr,
+    vec,
+};
 
-use std::{path::PathBuf, str::FromStr, vec};
-
-use parser::parse_season;
 use serde::{Deserialize, Serialize};
 use torrent_name_parser::Metadata;
+
+use crate::parser::parse_season_number;
+
+pub mod parser;
 
 #[derive(Serialize, Deserialize)]
 struct BaseConfig {
@@ -26,46 +33,27 @@ struct Season {
 #[derive(Serialize, Deserialize)]
 struct Episode {
     number: i32,
+    title: String,
     path: String,
 }
 
 fn main() {
-    // build_config();
+    let root_path = PathBuf::from_str("./media").unwrap();
+    let config = parse_show_tree(&root_path).unwrap();
 
-    let season =
-        parse_season("Kaguya-sama Love is War S02 1080p Dual Audio BDRip 10 bits AAC x265-EMBER")
-            .unwrap_or(0);
+    let json = serde_json::to_string_pretty(&config).unwrap();
+    println!("{}", json);
 
-    println!("{}", season);
+    fs::write("./out.json", json).unwrap();
 }
 
-fn parse_file_tree(path: &PathBuf) -> Vec<PathBuf> {
-    let mut paths: Vec<PathBuf> = vec![];
-
-    let curr_paths = path.read_dir().unwrap().map(|m| m.unwrap().path());
-
-    for path in curr_paths {
-        if path.is_dir() {
-            paths.append(&mut parse_file_tree(&path));
-        } else {
-            paths.push(path);
-        }
-    }
-
-    paths
-}
-
-fn build_config() {
+fn parse_show_tree(path: &PathBuf) -> Result<BaseConfig, Error> {
     let mut config = BaseConfig { media: vec![] };
 
-    let path = PathBuf::from_str("./media").unwrap();
+    let show_paths = path.read_dir()?.filter_map(|p| p.ok());
 
-    let paths = parse_file_tree(&path);
-
-    for path in paths {
-        let file_name = path.file_name().unwrap().to_str().unwrap();
-        let metadata = Metadata::from(file_name).unwrap();
-
+    for show_path in show_paths {
+        let metadata = Metadata::from(show_path.file_name().to_str().unwrap()).unwrap();
         let title = metadata.title();
 
         let show_index = match config.media.iter().position(|m| m.title == title) {
@@ -82,41 +70,50 @@ fn build_config() {
 
         let show = &mut config.media[show_index];
 
-        let season_number = metadata.season().unwrap_or(0);
+        let season_paths = show_path.path().read_dir()?.filter_map(|p| p.ok());
 
-        let season_index = match show.seasons.iter().position(|s| s.number == season_number) {
-            Some(season) => season,
-            None => {
-                let season = Season {
-                    number: season_number,
-                    episodes: vec![],
-                };
-                show.seasons.push(season);
-                show.seasons.len() - 1
+        for season_path in season_paths {
+            let season_number =
+                parse_season_number(season_path.file_name().to_str().unwrap()).unwrap_or(1);
+
+            let season_index = match show.seasons.iter().position(|s| s.number == season_number) {
+                Some(season) => season,
+                None => {
+                    let season = Season {
+                        number: season_number,
+                        episodes: vec![],
+                    };
+                    show.seasons.push(season);
+                    show.seasons.len() - 1
+                }
+            };
+
+            let season = &mut show.seasons[season_index];
+
+            if season_path.path().is_file() {
+                season.episodes.push(parse_episode(season_path));
+                continue;
             }
-        };
 
-        let season = &mut show.seasons[season_index];
+            let episode_paths = season_path.path().read_dir()?.filter_map(|p| p.ok());
 
-        let episode_number = metadata.episode().unwrap_or(0);
-
-        let _episode_index = match season
-            .episodes
-            .iter()
-            .position(|e| e.number == episode_number)
-        {
-            Some(episode) => episode,
-            None => {
-                let episode = Episode {
-                    number: episode_number,
-                    path: String::from_str(path.to_str().unwrap()).unwrap(),
-                };
-                season.episodes.push(episode);
-                season.episodes.len() - 1
+            for episode_path in episode_paths {
+                season.episodes.push(parse_episode(episode_path));
             }
-        };
+        }
     }
 
-    let json = serde_json::to_string_pretty(&config).unwrap();
-    println!("{}", json);
+    return Ok(config);
+}
+
+fn parse_episode(path: DirEntry) -> Episode {
+    let metadata = Metadata::from(path.file_name().to_str().unwrap()).unwrap();
+
+    let episode_number = metadata.episode().unwrap();
+
+    Episode {
+        number: episode_number,
+        title: metadata.title().to_string(),
+        path: String::from_str(path.path().to_str().unwrap()).unwrap(),
+    }
 }
