@@ -1,12 +1,11 @@
-use std::path::PathBuf;
-use std::str::FromStr;
 use std::{fs, vec};
 
 use dotenv::dotenv;
 use metadata::set_metadata;
+use parser::parse_episode_number;
 use rand::Rng;
 use serde::{Deserialize, Serialize};
-use structure::{parse_structure, Node};
+use structure::Node;
 use tmdb_client::models::Credits;
 use torrent_name_parser::Metadata;
 
@@ -34,6 +33,7 @@ struct Show {
     air_date: Option<String>,
     rating: Option<i32>,
     credits: Option<Credits>,
+    thumbnail: Option<String>,
 }
 
 impl Show {
@@ -48,6 +48,7 @@ impl Show {
             air_date: None,
             rating: None,
             credits: None,
+            thumbnail: None,
         }
     }
 }
@@ -59,6 +60,7 @@ struct Season {
     id: i32,
     episodes: Vec<Episode>,
     air_date: Option<String>,
+    thumbnail: Option<String>,
 }
 
 impl Season {
@@ -70,6 +72,7 @@ impl Season {
             id: rng.gen_range(100000..1000000),
             episodes: vec![],
             air_date: None,
+            thumbnail: None,
         }
     }
 }
@@ -80,6 +83,7 @@ struct Episode {
     number: i32,
     id: i32,
     path: String,
+    thumbnail: Option<String>,
 }
 
 impl Episode {
@@ -90,6 +94,7 @@ impl Episode {
             id: rng.gen_range(100000..1000000),
             name: name.to_string(),
             path: path.to_string(),
+            thumbnail: None,
         }
     }
 }
@@ -166,8 +171,15 @@ fn parse_show_tree(node: &Node) -> BaseConfig {
 fn parse_episode(node: &Node) -> Episode {
     if let Ok(metadata) = Metadata::from(&node.name) {
         let episode_number = metadata.episode().unwrap_or(0);
-
         return Episode::create(metadata.title(), episode_number, &node.path);
+    }
+
+    if let Some(episode_number) = parse_episode_number(&node.name) {
+        return Episode::create(
+            format!("Episode {}", episode_number).as_str(),
+            episode_number,
+            &node.path,
+        );
     }
 
     Episode::create("", 0, &node.path)

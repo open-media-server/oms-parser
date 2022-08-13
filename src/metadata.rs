@@ -36,6 +36,9 @@ pub fn set_metadata(config: &mut BaseConfig) {
         show.original_name = tmdb_show.original_name;
         show.air_date = tmdb_show.first_air_date;
         show.rating = tmdb_show.rating;
+        show.thumbnail = tmdb_show
+            .poster_path
+            .and_then(|p| Some(format!("https://image.tmdb.org/t/p/original{p}")));
 
         let tmdb_seasons = match tmdb_show_details.seasons {
             Some(seasons) => seasons,
@@ -72,6 +75,9 @@ pub fn set_metadata(config: &mut BaseConfig) {
             }
 
             season.air_date = tmdb_season_details.air_date;
+            season.thumbnail = tmdb_season_details
+                .poster_path
+                .and_then(|p| Some(format!("https://image.tmdb.org/t/p/original{p}")));
 
             let tmdb_episodes = match tmdb_season_details.episodes {
                 Some(episodes) => episodes,
@@ -90,6 +96,11 @@ pub fn set_metadata(config: &mut BaseConfig) {
                 if let Some(name) = &tmdb_episode.name {
                     episode.name = name.to_string();
                 }
+
+                episode.thumbnail = tmdb_episode
+                    .still_path
+                    .as_ref()
+                    .and_then(|p| Some(format!("https://image.tmdb.org/t/p/original{p}")));
             }
         }
     }

@@ -1,3 +1,5 @@
+use regex::Regex;
+
 pub fn parse_season_number(name: &str) -> Option<i32> {
     if name.to_lowercase().contains("specials") {
         return Some(0);
@@ -29,4 +31,19 @@ pub fn parse_season_number(name: &str) -> Option<i32> {
     };
 
     None
+}
+
+pub fn parse_episode_number(name: &str) -> Option<i32> {
+    let regex = Regex::new(
+        r"(?i)(?:e|episode)[^.\d]?(?P<short>\d{1,3})|\d+x(?P<cross>\d+)|s\d+ - (?P<dash>\d+)",
+    )
+    .unwrap();
+
+    let captures = regex.captures(name).unwrap();
+
+    captures
+        .name("short")
+        .or_else(|| captures.name("cross"))
+        .or_else(|| captures.name("dash"))
+        .map(|m| m.as_str().parse().unwrap_or(0))
 }

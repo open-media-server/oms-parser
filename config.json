@@ -7,162 +7,188 @@
         {
           "name": "Season 1",
           "number": 1,
-          "id": 666693,
+          "id": 501531,
           "episodes": [
             {
-              "name": "",
-              "number": 0,
-              "id": 125695,
-              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S01 1080p Dual Audio  BDRip 10 bits AAC x265-EMBER/S01e01-Come Together! Quartet [A6dc8384].mp4"
+              "name": "Come Together! Quartet",
+              "number": 1,
+              "id": 475263,
+              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S01 1080p Dual Audio  BDRip 10 bits AAC x265-EMBER/S01e01-Come Together! Quartet [A6dc8384].mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/j9MoZoiXLdGdMeCsgLeSgiUE8wH.jpg"
             },
             {
-              "name": "",
-              "number": 0,
-              "id": 327680,
-              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S01 1080p Dual Audio  BDRip 10 bits AAC x265-EMBER/S01e02-Tension! Introductions [Cc014949].mp4"
+              "name": "Tension! Introductions",
+              "number": 2,
+              "id": 889542,
+              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S01 1080p Dual Audio  BDRip 10 bits AAC x265-EMBER/S01e02-Tension! Introductions [Cc014949].mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/kQFlFjtrMtbuBKnK6Jox18Vi22J.jpg"
             },
             {
-              "name": "",
-              "number": 0,
-              "id": 729712,
-              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S01 1080p Dual Audio  BDRip 10 bits AAC x265-EMBER/S01e03-Deadlock! Classmates [Ddeea931].mp4"
+              "name": "Deadlock! Classmates",
+              "number": 3,
+              "id": 905869,
+              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S01 1080p Dual Audio  BDRip 10 bits AAC x265-EMBER/S01e03-Deadlock! Classmates [Ddeea931].mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/1YeZ0pO6V6EFEmebcieQDdnynOF.jpg"
             },
             {
-              "name": "",
-              "number": 0,
-              "id": 793262,
-              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S01 1080p Dual Audio  BDRip 10 bits AAC x265-EMBER/S01e04-Encounter! Classmates [A591a73a].mp4"
+              "name": "Encounter! Classmates",
+              "number": 4,
+              "id": 861415,
+              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S01 1080p Dual Audio  BDRip 10 bits AAC x265-EMBER/S01e04-Encounter! Classmates [A591a73a].mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/2ZwJXi4hFpjZlclR33jMEPUmt6d.jpg"
             },
             {
-              "name": "",
-              "number": 0,
-              "id": 487981,
-              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S01 1080p Dual Audio  BDRip 10 bits AAC x265-EMBER/S01e05-Explosion! Talent Show [030611F7].mp4"
+              "name": "Explosion! Talent Show",
+              "number": 5,
+              "id": 179870,
+              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S01 1080p Dual Audio  BDRip 10 bits AAC x265-EMBER/S01e05-Explosion! Talent Show [030611F7].mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/f5zhU7OQIKGXLO9NWeZKun1SFls.jpg"
             },
             {
-              "name": "",
-              "number": 0,
-              "id": 215402,
-              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S01 1080p Dual Audio  BDRip 10 bits AAC x265-EMBER/S01e06-Decision! Class Rep [28F0d029].mp4"
+              "name": "Decision! Class Rep",
+              "number": 6,
+              "id": 436465,
+              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S01 1080p Dual Audio  BDRip 10 bits AAC x265-EMBER/S01e06-Decision! Class Rep [28F0d029].mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/9gZg9SpwrSnFtiYjzSLjSSGca9r.jpg"
             },
             {
-              "name": "",
-              "number": 0,
-              "id": 922833,
-              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S01 1080p Dual Audio  BDRip 10 bits AAC x265-EMBER/S01e07-Carry Out! Class Rep [Ce0dfcf8].mp4"
+              "name": "Carry Out! Class Rep",
+              "number": 7,
+              "id": 227333,
+              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S01 1080p Dual Audio  BDRip 10 bits AAC x265-EMBER/S01e07-Carry Out! Class Rep [Ce0dfcf8].mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/rvw7Lo7VaG9QbPbnOvTjMfMLjnD.jpg"
             },
             {
-              "name": "",
-              "number": 0,
-              "id": 666087,
-              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S01 1080p Dual Audio  BDRip 10 bits AAC x265-EMBER/S01e08-Prepare! Field Trip [F9653bb9].mp4"
+              "name": "Prepare! Field Trip",
+              "number": 8,
+              "id": 677550,
+              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S01 1080p Dual Audio  BDRip 10 bits AAC x265-EMBER/S01e08-Prepare! Field Trip [F9653bb9].mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/7M6vRR7KOVKnbVJipiFRDtFK50f.jpg"
             },
             {
-              "name": "",
-              "number": 0,
-              "id": 272624,
-              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S01 1080p Dual Audio  BDRip 10 bits AAC x265-EMBER/S01e09-Enjoy! Field Trip [E20348fc].mp4"
+              "name": "Enjoy! Field Trip",
+              "number": 9,
+              "id": 807143,
+              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S01 1080p Dual Audio  BDRip 10 bits AAC x265-EMBER/S01e09-Enjoy! Field Trip [E20348fc].mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/npI99hWjVtjQx8q9GXK2ty6U3Ae.jpg"
             },
             {
-              "name": "",
-              "number": 0,
-              "id": 406467,
-              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S01 1080p Dual Audio  BDRip 10 bits AAC x265-EMBER/S01e10-Join In! Rivals [421684Aa].mp4"
+              "name": "Join In! Rivals",
+              "number": 10,
+              "id": 918079,
+              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S01 1080p Dual Audio  BDRip 10 bits AAC x265-EMBER/S01e10-Join In! Rivals [421684Aa].mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/p4PB4Y5mjAWbt3h1yh5gBntuAuo.jpg"
             },
             {
-              "name": "",
-              "number": 0,
-              "id": 182417,
-              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S01 1080p Dual Audio  BDRip 10 bits AAC x265-EMBER/S01e11-Work Together! Field Day [1F3723b4].mp4"
+              "name": "Work Together! Field Day",
+              "number": 11,
+              "id": 296848,
+              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S01 1080p Dual Audio  BDRip 10 bits AAC x265-EMBER/S01e11-Work Together! Field Day [1F3723b4].mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/n44nU01lhJCw8AOCB6nW3d1zfje.jpg"
             },
             {
-              "name": "",
-              "number": 0,
-              "id": 762846,
-              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S01 1080p Dual Audio  BDRip 10 bits AAC x265-EMBER/S01e12-Band Together! Quartet [Aeecb617].mp4"
+              "name": "Band Together! Quartet",
+              "number": 12,
+              "id": 781834,
+              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S01 1080p Dual Audio  BDRip 10 bits AAC x265-EMBER/S01e12-Band Together! Quartet [Aeecb617].mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/gsM9Xf2W4CLRWMQFwHeIHkpzr7y.jpg"
             }
           ],
-          "air_date": "2019-04-10"
+          "air_date": "2019-04-10",
+          "thumbnail": "https://image.tmdb.org/t/p/original/khbCEP3k8aaxBaxiwq4VmFRlbZq.jpg"
         },
         {
           "name": "Season 2",
           "number": 2,
-          "id": 711037,
+          "id": 497350,
           "episodes": [
             {
-              "name": "",
-              "number": 0,
-              "id": 993808,
-              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/S02e01-Join The Fight! Transfer Student [2Bcf6309].mp4"
+              "name": "Join the Fight! Transfer Student",
+              "number": 1,
+              "id": 696606,
+              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/S02e01-Join The Fight! Transfer Student [2Bcf6309].mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/luQDjuiV8SXxgmlVwSKUlN3Y3jH.jpg"
             },
             {
-              "name": "",
-              "number": 0,
-              "id": 173825,
-              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/S02e02-Sneak In! The Principal's Office [996Cb775].mp4"
+              "name": "Sneak In! The Principal's Office",
+              "number": 2,
+              "id": 953863,
+              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/S02e02-Sneak In! The Principal's Office [996Cb775].mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/c6s4m9zXrfgp3cthQ3Ny0r5fTiH.jpg"
             },
             {
-              "name": "",
-              "number": 0,
-              "id": 371223,
-              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/S02e03-Uh-Oh! Detention! [475C6733].mp4"
+              "name": "Uh-Oh! Detention!",
+              "number": 3,
+              "id": 883743,
+              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/S02e03-Uh-Oh! Detention! [475C6733].mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/u0eio5hoq23HWZGkfvoJ3Y961Qb.jpg"
             },
             {
-              "name": "",
-              "number": 0,
-              "id": 429189,
-              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/S02e04-Pinch! Test Of Learning [Daa41935].mp4"
+              "name": "Pinch! Test of Learning",
+              "number": 4,
+              "id": 811178,
+              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/S02e04-Pinch! Test Of Learning [Daa41935].mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/yo0ORtEideS70rKcrz7U1QTbfWM.jpg"
             },
             {
-              "name": "",
-              "number": 0,
-              "id": 242973,
-              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/S02e05-Work Hard! Valentine's Day [2202Aa3d].mp4"
+              "name": "Work Hard! Valentine's Day",
+              "number": 5,
+              "id": 722519,
+              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/S02e05-Work Hard! Valentine's Day [2202Aa3d].mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/lvB8PdlORKhOj9Rsps93QXefzjP.jpg"
             },
             {
-              "name": "",
-              "number": 0,
-              "id": 173622,
-              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/S02e06-Clash! Dodgeball! [5759F16b].mp4"
+              "name": "Clash! Dodgeball",
+              "number": 6,
+              "id": 365721,
+              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/S02e06-Clash! Dodgeball! [5759F16b].mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/81GNoClyfIQo4ZiRgVn4JuvowGM.jpg"
             },
             {
-              "name": "",
-              "number": 0,
-              "id": 868564,
-              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/S02e07-Excitement! Physicals Day [514C4060].mp4"
+              "name": "Excitement! Physicals Day",
+              "number": 7,
+              "id": 624816,
+              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/S02e07-Excitement! Physicals Day [514C4060].mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/l6OIxE2xIfFucKQAGd0e3ZaCiim.jpg"
             },
             {
-              "name": "",
-              "number": 0,
-              "id": 397556,
-              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/S02e08-Challenge! Part-Time Job [A9d05bda].mp4"
+              "name": "Challenge! Part-Time Job",
+              "number": 8,
+              "id": 465021,
+              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/S02e08-Challenge! Part-Time Job [A9d05bda].mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/oY7mwWpXKFYnX9Tw7kAJAthQb8t.jpg"
             },
             {
-              "name": "",
-              "number": 0,
-              "id": 747426,
-              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/S02e09-Investigate! First Errand [27617976].mp4"
+              "name": "Investigate! First Errand",
+              "number": 9,
+              "id": 925675,
+              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/S02e09-Investigate! First Errand [27617976].mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/noJTVbV8j0yu3I7b7hVsQLjuLNM.jpg"
             },
             {
-              "name": "",
-              "number": 0,
-              "id": 916170,
-              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/S02e10-Rise Up! School Festival [73B0e5c6].mp4"
+              "name": "Rise Up! School Festival",
+              "number": 10,
+              "id": 870150,
+              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/S02e10-Rise Up! School Festival [73B0e5c6].mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/nOOg4X1Z4oOKSsKwRZQiXLrHPIP.jpg"
             },
             {
-              "name": "",
-              "number": 0,
-              "id": 819465,
-              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/S02e11-It Begins! School Festival [97040E57].mp4"
+              "name": "It Begins! School Festival",
+              "number": 11,
+              "id": 567510,
+              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/S02e11-It Begins! School Festival [97040E57].mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/jc75rzoO9BawIJH4iUHZ5YpvPcB.jpg"
             },
             {
-              "name": "",
-              "number": 0,
-              "id": 395857,
-              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/S02e12-The Show Begins! Showtime [D7af9215].mp4"
+              "name": "The Show Begins! Showtime",
+              "number": 12,
+              "id": 727384,
+              "path": "/anime/Isekai Quartet S01-S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/Isekai Quartet S02 1080p Dual Audio BDRip 10 bits DD x265-EMBER/S02e12-The Show Begins! Showtime [D7af9215].mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/aCRhR7ul4jJAEKebErMiURiYjM1.jpg"
             }
           ],
-          "air_date": "2020-01-15"
+          "air_date": "2020-01-15",
+          "thumbnail": "https://image.tmdb.org/t/p/original/spEXqeQ6KHIGZS5fncDKwuMFCPr.jpg"
         }
       ],
       "id": 87478,
@@ -170,7 +196,8 @@
       "original_name": "異世界かるてっと",
       "air_date": "2019-04-10",
       "rating": null,
-      "credits": null
+      "credits": null,
+      "thumbnail": "https://image.tmdb.org/t/p/original/clts5tTaabf4KebibgFQwcyLSkx.jpg"
     },
     {
       "name": "Saga of Tanya the Evil",
@@ -178,88 +205,102 @@
         {
           "name": "Season 1",
           "number": 1,
-          "id": 325781,
+          "id": 182647,
           "episodes": [
             {
               "name": "Youjo Senki",
               "number": 0,
-              "id": 944438,
-              "path": "/anime/[AkihitoSubs] Youjo Senki v2 (The Saga of Tanya the Evil) - Season 01 + Movie + Special [Dual-Audio][BD 1080p][HEVC][x265][10Bit][Opus]/[AkihitoSubs] Youjo Senki - Movie.mp4"
+              "id": 271021,
+              "path": "/anime/[AkihitoSubs] Youjo Senki v2 (The Saga of Tanya the Evil) - Season 01 + Movie + Special [Dual-Audio][BD 1080p][HEVC][x265][10Bit][Opus]/[AkihitoSubs] Youjo Senki - Movie.mp4",
+              "thumbnail": null
             },
             {
               "name": "The Devil of the Rhine",
               "number": 1,
-              "id": 460846,
-              "path": "/anime/[AkihitoSubs] Youjo Senki v2 (The Saga of Tanya the Evil) - Season 01 + Movie + Special [Dual-Audio][BD 1080p][HEVC][x265][10Bit][Opus]/[AkihitoSubs] Youjo Senki - S01E01.mp4"
+              "id": 562312,
+              "path": "/anime/[AkihitoSubs] Youjo Senki v2 (The Saga of Tanya the Evil) - Season 01 + Movie + Special [Dual-Audio][BD 1080p][HEVC][x265][10Bit][Opus]/[AkihitoSubs] Youjo Senki - S01E01.mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/jDQj52zrqdhOmI1HWjY8irPWRqa.jpg"
             },
             {
               "name": "Prologue",
               "number": 2,
-              "id": 231412,
-              "path": "/anime/[AkihitoSubs] Youjo Senki v2 (The Saga of Tanya the Evil) - Season 01 + Movie + Special [Dual-Audio][BD 1080p][HEVC][x265][10Bit][Opus]/[AkihitoSubs] Youjo Senki - S01E02.mp4"
+              "id": 846865,
+              "path": "/anime/[AkihitoSubs] Youjo Senki v2 (The Saga of Tanya the Evil) - Season 01 + Movie + Special [Dual-Audio][BD 1080p][HEVC][x265][10Bit][Opus]/[AkihitoSubs] Youjo Senki - S01E02.mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/bZ4OAX20yrc96Ow97rPkiBlQIaX.jpg"
             },
             {
               "name": "Deus Vult",
               "number": 3,
-              "id": 298024,
-              "path": "/anime/[AkihitoSubs] Youjo Senki v2 (The Saga of Tanya the Evil) - Season 01 + Movie + Special [Dual-Audio][BD 1080p][HEVC][x265][10Bit][Opus]/[AkihitoSubs] Youjo Senki - S01E03.mp4"
+              "id": 426139,
+              "path": "/anime/[AkihitoSubs] Youjo Senki v2 (The Saga of Tanya the Evil) - Season 01 + Movie + Special [Dual-Audio][BD 1080p][HEVC][x265][10Bit][Opus]/[AkihitoSubs] Youjo Senki - S01E03.mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/9RBlEegROfMcureAo1odlupmGID.jpg"
             },
             {
               "name": "Campus Life",
               "number": 4,
-              "id": 855773,
-              "path": "/anime/[AkihitoSubs] Youjo Senki v2 (The Saga of Tanya the Evil) - Season 01 + Movie + Special [Dual-Audio][BD 1080p][HEVC][x265][10Bit][Opus]/[AkihitoSubs] Youjo Senki - S01E04.mp4"
+              "id": 661777,
+              "path": "/anime/[AkihitoSubs] Youjo Senki v2 (The Saga of Tanya the Evil) - Season 01 + Movie + Special [Dual-Audio][BD 1080p][HEVC][x265][10Bit][Opus]/[AkihitoSubs] Youjo Senki - S01E04.mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/fLyxiVTWekRfz1kDxSguIKSnDAL.jpg"
             },
             {
               "name": "My First Battalion",
               "number": 5,
-              "id": 377316,
-              "path": "/anime/[AkihitoSubs] Youjo Senki v2 (The Saga of Tanya the Evil) - Season 01 + Movie + Special [Dual-Audio][BD 1080p][HEVC][x265][10Bit][Opus]/[AkihitoSubs] Youjo Senki - S01E05.mp4"
+              "id": 505323,
+              "path": "/anime/[AkihitoSubs] Youjo Senki v2 (The Saga of Tanya the Evil) - Season 01 + Movie + Special [Dual-Audio][BD 1080p][HEVC][x265][10Bit][Opus]/[AkihitoSubs] Youjo Senki - S01E05.mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/sqCcjtzBVEdUfwDZXldN9CfzhmL.jpg"
             },
             {
               "name": "Beginning of Madness",
               "number": 6,
-              "id": 626985,
-              "path": "/anime/[AkihitoSubs] Youjo Senki v2 (The Saga of Tanya the Evil) - Season 01 + Movie + Special [Dual-Audio][BD 1080p][HEVC][x265][10Bit][Opus]/[AkihitoSubs] Youjo Senki - S01E06.mp4"
+              "id": 132346,
+              "path": "/anime/[AkihitoSubs] Youjo Senki v2 (The Saga of Tanya the Evil) - Season 01 + Movie + Special [Dual-Audio][BD 1080p][HEVC][x265][10Bit][Opus]/[AkihitoSubs] Youjo Senki - S01E06.mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/cx6VpJvhKpfu5oxHMyPOCKv493z.jpg"
             },
             {
               "name": "The Battle of the Fjord",
               "number": 7,
-              "id": 905283,
-              "path": "/anime/[AkihitoSubs] Youjo Senki v2 (The Saga of Tanya the Evil) - Season 01 + Movie + Special [Dual-Audio][BD 1080p][HEVC][x265][10Bit][Opus]/[AkihitoSubs] Youjo Senki - S01E07.mp4"
+              "id": 217900,
+              "path": "/anime/[AkihitoSubs] Youjo Senki v2 (The Saga of Tanya the Evil) - Season 01 + Movie + Special [Dual-Audio][BD 1080p][HEVC][x265][10Bit][Opus]/[AkihitoSubs] Youjo Senki - S01E07.mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/1Xqe499SVeQP3OqmgzEa23Z9SS.jpg"
             },
             {
               "name": "Trial by Fire",
               "number": 8,
-              "id": 209976,
-              "path": "/anime/[AkihitoSubs] Youjo Senki v2 (The Saga of Tanya the Evil) - Season 01 + Movie + Special [Dual-Audio][BD 1080p][HEVC][x265][10Bit][Opus]/[AkihitoSubs] Youjo Senki - S01E08.mp4"
+              "id": 429743,
+              "path": "/anime/[AkihitoSubs] Youjo Senki v2 (The Saga of Tanya the Evil) - Season 01 + Movie + Special [Dual-Audio][BD 1080p][HEVC][x265][10Bit][Opus]/[AkihitoSubs] Youjo Senki - S01E08.mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/nFcxEBQNyAhLIU46ODYRpJCNAgX.jpg"
             },
             {
               "name": "Preparations for Advance",
               "number": 9,
-              "id": 133417,
-              "path": "/anime/[AkihitoSubs] Youjo Senki v2 (The Saga of Tanya the Evil) - Season 01 + Movie + Special [Dual-Audio][BD 1080p][HEVC][x265][10Bit][Opus]/[AkihitoSubs] Youjo Senki - S01E09.mp4"
+              "id": 481669,
+              "path": "/anime/[AkihitoSubs] Youjo Senki v2 (The Saga of Tanya the Evil) - Season 01 + Movie + Special [Dual-Audio][BD 1080p][HEVC][x265][10Bit][Opus]/[AkihitoSubs] Youjo Senki - S01E09.mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/n7eU7qVjuZCWbbx5pGFaTae1NYZ.jpg"
             },
             {
               "name": "The Path to Victory",
               "number": 10,
-              "id": 786976,
-              "path": "/anime/[AkihitoSubs] Youjo Senki v2 (The Saga of Tanya the Evil) - Season 01 + Movie + Special [Dual-Audio][BD 1080p][HEVC][x265][10Bit][Opus]/[AkihitoSubs] Youjo Senki - S01E10.mp4"
+              "id": 696529,
+              "path": "/anime/[AkihitoSubs] Youjo Senki v2 (The Saga of Tanya the Evil) - Season 01 + Movie + Special [Dual-Audio][BD 1080p][HEVC][x265][10Bit][Opus]/[AkihitoSubs] Youjo Senki - S01E10.mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/dcpuzPxU6Y5FyPJeP3hTVlboJiZ.jpg"
             },
             {
               "name": "Resistance",
               "number": 11,
-              "id": 898764,
-              "path": "/anime/[AkihitoSubs] Youjo Senki v2 (The Saga of Tanya the Evil) - Season 01 + Movie + Special [Dual-Audio][BD 1080p][HEVC][x265][10Bit][Opus]/[AkihitoSubs] Youjo Senki - S01E11.mp4"
+              "id": 754487,
+              "path": "/anime/[AkihitoSubs] Youjo Senki v2 (The Saga of Tanya the Evil) - Season 01 + Movie + Special [Dual-Audio][BD 1080p][HEVC][x265][10Bit][Opus]/[AkihitoSubs] Youjo Senki - S01E11.mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/AuTDbAACG6UR6U4BWuQe57w8NSw.jpg"
             },
             {
               "name": "How to Use a Victory",
               "number": 12,
-              "id": 257741,
-              "path": "/anime/[AkihitoSubs] Youjo Senki v2 (The Saga of Tanya the Evil) - Season 01 + Movie + Special [Dual-Audio][BD 1080p][HEVC][x265][10Bit][Opus]/[AkihitoSubs] Youjo Senki - S01E12.mp4"
+              "id": 310627,
+              "path": "/anime/[AkihitoSubs] Youjo Senki v2 (The Saga of Tanya the Evil) - Season 01 + Movie + Special [Dual-Audio][BD 1080p][HEVC][x265][10Bit][Opus]/[AkihitoSubs] Youjo Senki - S01E12.mp4",
+              "thumbnail": "https://image.tmdb.org/t/p/original/zfs4WaQpSrm8NLNtm9MoLfWV5bt.jpg"
             }
           ],
-          "air_date": "2017-01-06"
+          "air_date": "2017-01-06",
+          "thumbnail": "https://image.tmdb.org/t/p/original/3Dkbf6zgcDQCNtx7qeRJaGwjILU.jpg"
         }
       ],
       "id": 69346,
@@ -267,7 +308,8 @@
       "original_name": "幼女戦記",
       "air_date": "2017-01-06",
       "rating": null,
-      "credits": null
+      "credits": null,
+      "thumbnail": "https://image.tmdb.org/t/p/original/5nwiHomKZBBF9DLrolfZapi3fDm.jpg"
     },
     {
       "name": "DARLING in the FRANXX",
@@ -275,154 +317,179 @@
         {
           "name": "Season 1",
           "number": 1,
-          "id": 700552,
+          "id": 607364,
           "episodes": [
             {
               "name": "Alone and Lonesome",
               "number": 1,
-              "id": 521450,
-              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E01 - Alone And Lonesome.mkv"
+              "id": 962106,
+              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E01 - Alone And Lonesome.mkv",
+              "thumbnail": "https://image.tmdb.org/t/p/original/dbEXBqAAQp8uvWs0qs78ZZmUa4O.jpg"
             },
             {
               "name": "What It Means to Connect",
               "number": 2,
-              "id": 618597,
-              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E02 - What It Means To Connect.mkv"
+              "id": 160675,
+              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E02 - What It Means To Connect.mkv",
+              "thumbnail": "https://image.tmdb.org/t/p/original/AmEqOtFj5xGGjqwhDP3YMOZsG21.jpg"
             },
             {
               "name": "Fighting Puppet",
               "number": 3,
-              "id": 665282,
-              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E03 - Fighting Puppet.mkv"
+              "id": 222625,
+              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E03 - Fighting Puppet.mkv",
+              "thumbnail": "https://image.tmdb.org/t/p/original/m6aXPytfoI4bXIuqc84OtpXF8pm.jpg"
             },
             {
               "name": "Flap Flap",
               "number": 4,
-              "id": 179097,
-              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E04 - Flap Flap.mkv"
+              "id": 101298,
+              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E04 - Flap Flap.mkv",
+              "thumbnail": "https://image.tmdb.org/t/p/original/bbkZTk5ayEpYeWe71loWmiGfi3Q.jpg"
             },
             {
               "name": "Your Thorn, My Badge",
               "number": 5,
-              "id": 184618,
-              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E05 - Your Thorn, My Badge.mkv"
+              "id": 698764,
+              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E05 - Your Thorn, My Badge.mkv",
+              "thumbnail": "https://image.tmdb.org/t/p/original/13xvkMUlJWUufVHSwKqkoSqxvdM.jpg"
             },
             {
               "name": "DARLING in the FRANXX",
               "number": 6,
-              "id": 391421,
-              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E06 - DARLING In The FRANXX.mkv"
+              "id": 152936,
+              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E06 - DARLING In The FRANXX.mkv",
+              "thumbnail": "https://image.tmdb.org/t/p/original/myameWyMRW4YPLvSSOJvlqpTIrx.jpg"
             },
             {
               "name": "Shooting Star Moratorium",
               "number": 7,
-              "id": 914756,
-              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E07 - Shooting Star Moratorium.mkv"
+              "id": 703289,
+              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E07 - Shooting Star Moratorium.mkv",
+              "thumbnail": "https://image.tmdb.org/t/p/original/8nyCgfGGAA0HeWBvXdwv1ayjDLX.jpg"
             },
             {
               "name": "Boys x Girls",
               "number": 8,
-              "id": 609512,
-              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E08 - Boys ✕ Girls.mkv"
+              "id": 894154,
+              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E08 - Boys ✕ Girls.mkv",
+              "thumbnail": "https://image.tmdb.org/t/p/original/nXgRehUtXyu5duxvVPHLlEGIXqF.jpg"
             },
             {
               "name": "Triangle Bomb",
               "number": 9,
-              "id": 814490,
-              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E09 - Triangle Bomb.mkv"
+              "id": 861322,
+              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E09 - Triangle Bomb.mkv",
+              "thumbnail": "https://image.tmdb.org/t/p/original/yGm15Wln9f6MCD8fBnLTjoQcdpg.jpg"
             },
             {
               "name": "The City of Eternity",
               "number": 10,
-              "id": 312564,
-              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E10 - The City Of Eternity.mkv"
+              "id": 862537,
+              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E10 - The City Of Eternity.mkv",
+              "thumbnail": "https://image.tmdb.org/t/p/original/9LCa13pv77QxOxF5Ta9PKYSZLkO.jpg"
             },
             {
               "name": "Partner Shuffle",
               "number": 11,
-              "id": 211033,
-              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E11 - Partner Shuffle.mkv"
+              "id": 646779,
+              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E11 - Partner Shuffle.mkv",
+              "thumbnail": "https://image.tmdb.org/t/p/original/4KCTgY27g5tuZDX8E1cCaX3UIee.jpg"
             },
             {
               "name": "The Garden Where It All Began",
               "number": 12,
-              "id": 941789,
-              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E12 - The Garden Where It All Began.mkv"
+              "id": 535142,
+              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E12 - The Garden Where It All Began.mkv",
+              "thumbnail": "https://image.tmdb.org/t/p/original/guVKdehyUht0VCZPxT2X4z2uqan.jpg"
             },
             {
               "name": "The Beast and the Prince",
               "number": 13,
-              "id": 956887,
-              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E13 - The Beast And The Prince.mkv"
+              "id": 495824,
+              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E13 - The Beast And The Prince.mkv",
+              "thumbnail": "https://image.tmdb.org/t/p/original/tOqeyhcNf9LGf4gHqBTC6FMdI65.jpg"
             },
             {
               "name": "Punishment and Confession",
               "number": 14,
-              "id": 513481,
-              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E14 - Punishment And Confession.mkv"
+              "id": 851086,
+              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E14 - Punishment And Confession.mkv",
+              "thumbnail": "https://image.tmdb.org/t/p/original/9QYRQeH4nYuKUY3yv89D3rfyJqu.jpg"
             },
             {
               "name": "Jian",
               "number": 15,
-              "id": 984321,
-              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E15 - Jian.mkv"
+              "id": 526708,
+              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E15 - Jian.mkv",
+              "thumbnail": "https://image.tmdb.org/t/p/original/wge3WYXVtbIm7S9O7b5hpWvzQBJ.jpg"
             },
             {
               "name": "Days of Our Lives",
               "number": 16,
-              "id": 181631,
-              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E16 - Days Of Our Lives.mkv"
+              "id": 152357,
+              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E16 - Days Of Our Lives.mkv",
+              "thumbnail": "https://image.tmdb.org/t/p/original/3IAzSarcGoHHfiLOFlAyFgXLzaW.jpg"
             },
             {
               "name": "Eden",
               "number": 17,
-              "id": 568326,
-              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E17 - Eden.mkv"
+              "id": 206444,
+              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E17 - Eden.mkv",
+              "thumbnail": "https://image.tmdb.org/t/p/original/yNJeG4uFjKKSVBB9z7oUDjGJiF9.jpg"
             },
             {
               "name": "When the Sakura Blooms",
               "number": 18,
-              "id": 797388,
-              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E18 - When The Sakura Blooms.mkv"
+              "id": 301138,
+              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E18 - When The Sakura Blooms.mkv",
+              "thumbnail": "https://image.tmdb.org/t/p/original/bFsCEazBGQ7usfRKLNLqgX2S9J4.jpg"
             },
             {
               "name": "Inhumanity",
               "number": 19,
-              "id": 339260,
-              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E19 - Inhumanity.mkv"
+              "id": 850641,
+              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E19 - Inhumanity.mkv",
+              "thumbnail": "https://image.tmdb.org/t/p/original/jPBQNodYVEZuWbWbVpwVgojG3Dt.jpg"
             },
             {
               "name": "A New World",
               "number": 20,
-              "id": 604272,
-              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E20 - A New World.mkv"
+              "id": 502012,
+              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E20 - A New World.mkv",
+              "thumbnail": "https://image.tmdb.org/t/p/original/ioS1aAmuX1clgEAXkwCf1uPvIzP.jpg"
             },
             {
               "name": "For You, My Love",
               "number": 21,
-              "id": 996057,
-              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E21 - For You, My Love.mkv"
+              "id": 793776,
+              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E21 - For You, My Love.mkv",
+              "thumbnail": "https://image.tmdb.org/t/p/original/aU4PFGaSYTIpGZh69bQhH1RZXEc.jpg"
             },
             {
               "name": "Stargazers",
               "number": 22,
-              "id": 670169,
-              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E22 - Stargazers.mkv"
+              "id": 811063,
+              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E22 - Stargazers.mkv",
+              "thumbnail": "https://image.tmdb.org/t/p/original/u9t4dWGsKbROoZflb5pTikwVngQ.jpg"
             },
             {
               "name": "DARLING in the FRANXX",
               "number": 23,
-              "id": 846729,
-              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E23 - DARLING In The FRANXX.mkv"
+              "id": 941339,
+              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E23 - DARLING In The FRANXX.mkv",
+              "thumbnail": "https://image.tmdb.org/t/p/original/sUpi3EHyfD2xPdIWow5deSZkmZ1.jpg"
             },
             {
               "name": "Never Let Me Go",
               "number": 24,
-              "id": 633702,
-              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E24 - Never Let Me Go.mkv"
+              "id": 752990,
+              "path": "/anime/[Tenrai-Sensei] Darling in the FranXX [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 1/DARLING In The FRANXX - S01E24 - Never Let Me Go.mkv",
+              "thumbnail": "https://image.tmdb.org/t/p/original/elWlIROaHSNffkP9CduxGDURuwI.jpg"
             }
           ],
-          "air_date": "2018-01-13"
+          "air_date": "2018-01-13",
+          "thumbnail": "https://image.tmdb.org/t/p/original/yyUxeNpQoD23XWEdPXLJRGQEtHT.jpg"
         }
       ],
       "id": 76121,
@@ -430,7 +497,8 @@
       "original_name": "ダーリン・イン・ザ・フランキス",
       "air_date": "2018-01-13",
       "rating": null,
-      "credits": null
+      "credits": null,
+      "thumbnail": "https://image.tmdb.org/t/p/original/yyUxeNpQoD23XWEdPXLJRGQEtHT.jpg"
     }
   ]
 }
