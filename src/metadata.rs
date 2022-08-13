@@ -6,8 +6,10 @@ use tmdb_client::{
 use crate::BaseConfig;
 
 pub fn set_metadata(config: &mut BaseConfig) {
+    let client = APIClient::new_with_api_key("1506c013386779f969954794da85ac45");
+
     for show in &mut config.media {
-        let tmdb_show = match get_show_metadata_from_dirty_name(&show.name) {
+        let tmdb_show = match get_show_metadata_from_dirty_name(&client, &show.name) {
             Some(metadata) => metadata,
             None => continue,
         };
@@ -17,13 +19,17 @@ pub fn set_metadata(config: &mut BaseConfig) {
             None => continue,
         };
 
-        let tmdb_show_details = match get_show_details(tmdb_show_id) {
+        let tmdb_show_details = match get_show_details(&client, tmdb_show_id) {
             Some(details) => details,
             None => continue,
         };
 
         if let Some(name) = tmdb_show.name {
             show.name = name;
+        }
+
+        if let Some(id) = tmdb_show.id {
+            show.id = id;
         }
 
         show.description = tmdb_show.overview;
@@ -45,9 +51,18 @@ pub fn set_metadata(config: &mut BaseConfig) {
                 None => continue,
             };
 
+            let tmdb_show_id = match tmdb_show.id {
+                Some(id) => id,
+                None => continue,
+            };
+
+            let tmdb_season_number = match tmdb_season.season_number {
+                Some(number) => number,
+                None => continue,
+            };
+
             let tmdb_season_details =
-                match get_season_details(tmdb_show.id.unwrap(), tmdb_season.season_number.unwrap())
-                {
+                match get_season_details(&client, tmdb_show_id, tmdb_season_number) {
                     Some(details) => details,
                     None => continue,
                 };
@@ -57,8 +72,6 @@ pub fn set_metadata(config: &mut BaseConfig) {
             }
 
             season.air_date = tmdb_season_details.air_date;
-
-            println!("{:?}", tmdb_season_details.credits);
 
             let tmdb_episodes = match tmdb_season_details.episodes {
                 Some(episodes) => episodes,
@@ -82,8 +95,8 @@ pub fn set_metadata(config: &mut BaseConfig) {
     }
 }
 
-fn get_show_metadata_from_dirty_name(name: &str) -> Option<TvObject> {
-    match get_show_metadata(name) {
+fn get_show_metadata_from_dirty_name(client: &APIClient, name: &str) -> Option<TvObject> {
+    match get_show_metadata(client, name) {
         Some(metadata) => return Some(metadata),
         None => (),
     }
@@ -91,24 +104,16 @@ fn get_show_metadata_from_dirty_name(name: &str) -> Option<TvObject> {
     let mut parts = name.split_whitespace().collect::<Vec<&str>>();
     parts.pop();
 
-    return get_show_metadata_from_dirty_name(&parts.join(" "));
+    return get_show_metadata_from_dirty_name(client, &parts.join(" "));
 }
 
-fn get_show_metadata(name: &str) -> Option<TvObject> {
-    let client = APIClient::new_with_api_key("1506c013386779f969954794da85ac45");
-
-    let response = match client
+fn get_show_metadata(client: &APIClient, name: &str) -> Option<TvObject> {
+    let response = client
         .search_api()
         .get_search_tv_paginated(name, None, None, None)
-    {
-        Ok(shows) => shows,
-        Err(err) => {
-            println!("{:?}", err);
-            return None;
-        }
-    };
+        .ok()?;
 
-    let shows = response.results.unwrap();
+    let shows = response.results?;
 
     if shows.is_empty() {
         return None;
@@ -117,15 +122,11 @@ fn get_show_metadata(name: &str) -> Option<TvObject> {
     return Some(shows[0].clone());
 }
 
-fn get_show_details(id: i32) -> Option<TvDetails> {
-    let client = APIClient::new_with_api_key("1506c013386779f969954794da85ac45");
-
+fn get_show_details(client: &APIClient, id: i32) -> Option<TvDetails> {
     client.tv_api().get_tv_details(id, None, None, None).ok()
 }
 
-fn get_season_details(id: i32, season_number: i32) -> Option<SeasonDetails> {
-    let client = APIClient::new_with_api_key("1506c013386779f969954794da85ac45");
-
+fn get_season_details(client: &APIClient, id: i32, season_number: i32) -> Option<SeasonDetails> {
     client
         .tv_seasons_api()
         .get_tv_season_details(id, season_number, None, None, None)
