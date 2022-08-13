@@ -1,139 +1,143 @@
 {
   "media": [
     {
-      "title": "Youjo Senki v2",
+      "name": "SPY x FAMILY",
       "seasons": [
         {
+          "name": "Season 1",
           "number": 1,
           "episodes": [
             {
+              "name": "THE COUNTER-SECRET POLICE COVER OPERATION",
+              "number": 8,
+              "path": "./media/[Judas] Spy x Family (Season 1) [1080p][HEVC x265 10bit][Multi-Subs]/[Judas] Spy x Family - S01E08.mkv"
+            }
+          ],
+          "air_date": "2022-04-09"
+        }
+      ],
+      "description": "Master spy Twilight is the best at what he does when it comes to going undercover on dangerous missions in the name of a better world. But when he receives the ultimate impossible assignment—get married and have a kid—he may finally be in over his head! Not one to depend on others, Twilight has his work cut out for him procuring both a wife and a child for his mission to infiltrate an elite private school. What he doesn't know is that the wife he's chosen is an assassin and the child he's adopted is a telepath!",
+      "original_name": "SPY×FAMILY",
+      "air_date": "2022-04-09",
+      "rating": null,
+      "credits": null
+    },
+    {
+      "name": "My Hero Academia",
+      "seasons": [
+        {
+          "name": "Season 3",
+          "number": 3,
+          "episodes": [
+            {
+              "name": "Special Episode: Save the World with Love!",
+              "number": 20,
+              "path": "./media/[Tenrai-Sensei] My Hero Academia [BD][1080p][HEVC 10bit x265][Dual Audio]/Season 3/My Hero Academia - S03E20 - Special Episode - Save The World With Love!.mkv"
+            }
+          ],
+          "air_date": "2018-04-07"
+        }
+      ],
+      "description": "In a world where eighty percent of the population has some kind of super-powered Quirk, Izuku was unlucky enough to be born completely normal. But that won't stop him from enrolling in a prestigious hero academy. Now, he'll get his first taste of brutal rivalry from other schools as he braves the cutthroat, no-holds-barred provisional license exam.",
+      "original_name": "僕のヒーローアカデミア",
+      "air_date": "2016-04-03",
+      "rating": null,
+      "credits": null
+    },
+    {
+      "name": "KILL la KILL",
+      "seasons": [
+        {
+          "name": "Season 1",
+          "number": 1,
+          "episodes": [
+            {
+              "name": "Kill la Kill Episode 03 Junketsu",
+              "number": 0,
+              "path": "./media/[bonkai77] Kill la Kill [1080p] [DUAL-AUDIO] [x265] [HEVC] [AAC] [10bit]/[bonkai77].Kill.la.Kill.Episode.03.Junketsu.1080p.Dual.Audio.Bluray.mkv"
+            }
+          ],
+          "air_date": "2013-10-04"
+        }
+      ],
+      "description": "Honnouji Academy is forcefully ruled by the iron-fisted control of its student council and its president, Satsuki Kiryuuin. Transfer student, Ryuuko Matoi, arrives on campus carrying a giant sword, that is actually half of a scissor. She is looking for the woman who holds the other half of her sword who killed her father. It is said that Satsuki Kiryuuin knows the identity of the killer but when Ryuuko confronts her she is beaten by the student council and their powerful \"goku uniforms\" whom she cannot match in strength. However, once Ryuuko receives her own \"Kamui\" by the name of Senketsu , the odds are lifted in her favor.",
+      "original_name": "キルラキル",
+      "air_date": "2013-10-04",
+      "rating": null,
+      "credits": null
+    },
+    {
+      "name": "Saga of Tanya the Evil",
+      "seasons": [
+        {
+          "name": "Season 1",
+          "number": 1,
+          "episodes": [
+            {
+              "name": "The Devil of the Rhine",
               "number": 1,
-              "title": "Youjo Senki",
               "path": "./media/[AkihitoSubs] Youjo Senki v2 (The Saga of Tanya the Evil) - Season 01 + Movie + Special [Dual-Audio][BD 1080p][HEVC][x265][10Bit][Opus]/[AkihitoSubs] Youjo Senki - S01E01.mp4"
             },
             {
+              "name": "The Path to Victory",
               "number": 10,
-              "title": "Youjo Senki",
               "path": "./media/[AkihitoSubs] Youjo Senki v2 (The Saga of Tanya the Evil) - Season 01 + Movie + Special [Dual-Audio][BD 1080p][HEVC][x265][10Bit][Opus]/[AkihitoSubs] Youjo Senki - S01E10.mp4"
             }
-          ]
+          ],
+          "air_date": "2017-01-06"
         }
-      ]
+      ],
+      "description": "On the front lines of the war, Tanya Degurechaff, blond hair, blue eyes, and porcelain white skin, commands her squad with lisping voice. Actually, she is one of Japan's most elite salary men, reborn as a little girl into a world of magical warfare after angering a mysterious being who calls himself God.",
+      "original_name": "幼女戦記",
+      "air_date": "2017-01-06",
+      "rating": null,
+      "credits": null
     },
     {
-      "title": "Re Zero Starting a Life in Another World [BD][",
+      "name": "Re:ZERO -Starting Life in Another World-",
       "seasons": [
         {
+          "name": "Season 2",
           "number": 2,
           "episodes": [
             {
+              "name": "The Maiden’s Gospel",
               "number": 6,
-              "title": "ReZERO",
               "path": "./media/Re Zero Starting a Life in Another World [BD][1080p][HEVC 10bit x265][Dual Audio][Tenrai-Sensei]/Season 2/ReZERO - S02E06 - The Maiden's Gospel.mkv"
             }
-          ]
+          ],
+          "air_date": "2020-07-08"
         },
         {
+          "name": "Specials",
           "number": 0,
           "episodes": [
             {
+              "name": "Re:ZERO ~Starting Break Time From Zero~ World 2-1",
               "number": 4,
-              "title": "ReZERO",
               "path": "./media/Re Zero Starting a Life in Another World [BD][1080p][HEVC 10bit x265][Dual Audio][Tenrai-Sensei]/Specials/ReZERO - S00E04 - ReZERO ~Starting Break Time From Zero~ World 2-1.mkv"
             }
-          ]
+          ],
+          "air_date": "2016-04-05"
         },
         {
+          "name": "Season 1",
           "number": 1,
           "episodes": [
             {
+              "name": "The Morning of Our Promise Is Still Distant",
               "number": 5,
-              "title": "ReZERO",
               "path": "./media/Re Zero Starting a Life in Another World [BD][1080p][HEVC 10bit x265][Dual Audio][Tenrai-Sensei]/Season 1/ReZERO - S01E05 - The Morning Of Our Promise Is Still Distant.mkv"
             }
-          ]
+          ],
+          "air_date": "2016-04-04"
         }
-      ]
-    },
-    {
-      "title": "Amazing Bananas",
-      "seasons": [
-        {
-          "number": 2,
-          "episodes": [
-            {
-              "number": 2,
-              "title": "Amazing Bananas",
-              "path": "./media/Amazing Bananas/Season 2/Amazing Bananas - S2E2.mp4"
-            },
-            {
-              "number": 3,
-              "title": "Amazing Bananas",
-              "path": "./media/Amazing Bananas/Season 2/Amazing Bananas - S2E3.mp4"
-            },
-            {
-              "number": 1,
-              "title": "Amazing Bananas",
-              "path": "./media/Amazing Bananas/Season 2/Amazing Bananas - S2E1.mp4"
-            },
-            {
-              "number": 4,
-              "title": "Amazing Bananas",
-              "path": "./media/Amazing Bananas/Season 2/Amazing Bananas - S2E4.mp4"
-            }
-          ]
-        },
-        {
-          "number": 1,
-          "episodes": [
-            {
-              "number": 3,
-              "title": "Amazing Bananas",
-              "path": "./media/Amazing Bananas/Season 1/Amazing Bananas - S1E3.mp4"
-            },
-            {
-              "number": 2,
-              "title": "Amazing Bananas",
-              "path": "./media/Amazing Bananas/Season 1/Amazing Bananas - S1E2.mp4"
-            },
-            {
-              "number": 1,
-              "title": "Amazing Bananas",
-              "path": "./media/Amazing Bananas/Season 1/Amazing Bananas - S1E1.mp4"
-            },
-            {
-              "number": 4,
-              "title": "Amazing Bananas",
-              "path": "./media/Amazing Bananas/Season 1/Amazing Bananas - S1E4.mp4"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Flying Potatos",
-      "seasons": [
-        {
-          "number": 1,
-          "episodes": [
-            {
-              "number": 3,
-              "title": "Flying Potatos",
-              "path": "./media/Flying Potatos/Flying Potatos - E3.mp4"
-            },
-            {
-              "number": 2,
-              "title": "Flying Potatos",
-              "path": "./media/Flying Potatos/Flying Potatos - E2.mp4"
-            },
-            {
-              "number": 1,
-              "title": "Flying Potatos",
-              "path": "./media/Flying Potatos/Flying Potatos - E1.mp4"
-            }
-          ]
-        }
-      ]
+      ],
+      "description": "Natsuki Subaru, an ordinary high school  student, is on his way home from the convenience store when he finds  himself transported to another world. As he's lost and confused in a new  world where he doesn't even know left from right, the only person to  reach out to him was a beautiful girl with silver hair. Determined to  repay her somehow for saving him from his own despair, Subaru agrees to  help the girl find something she's looking for.",
+      "original_name": "Re：ゼロから始める異世界生活",
+      "air_date": "2016-04-04",
+      "rating": null,
+      "credits": null
     }
   ]
 }
